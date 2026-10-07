@@ -21,11 +21,20 @@ const services = [
 ];
 
 const projects = [
-  { image: "awesmetodos.png", title: "AwesomeTodos", tag: "Todos built using MERN" },
-  { image: "doclock.png",     title: "Doclock",       tag: "Fast to press, No more stress!" },
-  { image: "addtocart.png",   title: "Product",       tag: "Product design" },
-  { image: "playlist.png",    title: "Playlist",      tag: "Currently playing" },
-];
+       { image: "aktiv.png", 
+        href: "",
+            title: "Aktiv", 
+            tag: "Actively learning"
+          },
+       { image: "awesmetodos.png",
+          title: "AwesomeTodos", 
+          tag: "Todos built using MERN" 
+          },
+       { image: "doclock.png",     
+          title: "Doclock",       
+          tag: "Fast to press, No more stress!" 
+        },
+      ];
 
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -85,9 +94,9 @@ export default function Portfolio() {
               download="Casey Marie Lois G. Barrido - CV.docx"
             >Download CV</a>
             <div className="social-icons">
-              <a href="#" aria-label="GitHub"><i className="ri-github-fill" /></a>
-              <a href="#" aria-label="LinkedIn"><i className="ri-linkedin-box-fill" /></a>
-              <a href="#" aria-label="Email"><i className="ri-mail-fill" /></a>
+              <a href="https://github.com/csymrls" aria-label="GitHub"><i className="ri-github-fill" /></a>
+              <a href="https://www.linkedin.com/in/casey-barrido-613b60353/" aria-label="LinkedIn"><i className="ri-linkedin-box-fill" /></a>
+              <a href="https://caseybarrido@gmail.com" aria-label="Email"><i className="ri-mail-fill" /></a>
             </div>
           </div>
         </div>
